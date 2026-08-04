@@ -40,14 +40,3 @@ jobs:
         with:
           name: uziel-barber-apk
           path: app/build/outputs/apk/debug/app-debug.apk
-גלול למטה ולחץ על הכפתור הירוק "Commit changes...", ואז שוב "Commit changes" בחלון שנפתח.
-
-תגיד לי "בוצע" ונעבור לקובץ הבא (יהיה קצר וקל, רק 3-4 שורות).
-
-You are out of free messages until 6:40 PM
-
-קוד
-
-בעיותbuild-apk.yml
-
-Claude is AI and can make mistakes. Please double-check responses.
