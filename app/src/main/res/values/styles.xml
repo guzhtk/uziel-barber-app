@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.UzielBarber" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#712B13</item>
+        <item name="android:windowBackground">#F4F1EA</item>
+    </style>
+</resources>
