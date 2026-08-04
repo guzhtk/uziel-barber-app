@@ -1,4 +1,4 @@
-yaml
+yamlebug/app-debug.apk
 name: Build APK
 
 on:
