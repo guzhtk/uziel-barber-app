@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F1EA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="UZIEL"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#2C2C2A"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="מספרה לגברים וילדים"
+            android:textSize="13sp"
+            android:textColor="#5F5E5A"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="קביעת תור"
+            android:textSize="14sp"
+            android:textColor="#5F5E5A"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/tabForm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="קביעת תור"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#712B13"/>
+
+            <Button
+                android:id="@+id/tabSchedule"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="היומן"
+                android:textColor="#5F5E5A"
+                android:backgroundTint="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="שם מלא"
+                android:textSize="13sp"
+                android:textColor="#5F5E5A"
+                android:layout_marginBottom="4dp"/>
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="לדוגמה: דני כהן"
+                android:inputType="textPersonName"
+                android:background="@drawable/field_bg"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginBottom="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="סוג תספורת"
+                android:textSize="13sp"
+                android:textColor="#5F5E5A"
+                android:layout_marginBottom="4dp"/>
+
+            <Spinner
+                android:id="@+id/fservice"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/field_bg"
+                android:layout_marginBottom="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="יום"
+                android:textSize="13sp"
+                android:textColor="#5F5E5A"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/fday"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="בחר יום"
+                android:textColor="#2C2C2A"
+                android:backgroundTint="#FFFFFF"
+                android:background="@drawable/field_bg"
+                android:layout_marginBottom="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="שעה פנויה"
+                android:textSize="13sp"
+                android:textColor="#5F5E5A"
+                android:layout_marginBottom="4dp"/>
+
+            <Spinner
+                android:id="@+id/fslots"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/field_bg"/>
+
+            <TextView
+                android:id="@+id/nextAvailBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="#A32D2D"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/fbtn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:text="קביעת תור"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#712B13"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/confirmBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:visibility="gone"
+                android:textColor="#2C2C2A"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
