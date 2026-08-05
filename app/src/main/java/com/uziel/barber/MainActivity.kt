@@ -35,3 +35,4 @@ class ReminderReceiver : BroadcastReceiver() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
                 REMINDER_CHANNEL_ID, "תזכורות תורים", NotificationManager.IMPORTANCE_HIGH
+                )
