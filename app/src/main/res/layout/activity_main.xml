@@ -115,14 +115,20 @@
                 android:textColor="#5F5E5A"
                 android:layout_marginBottom="4dp"/>
 
-            <Button
-                android:id="@+id/fday"
+            <TextView
+                android:id="@+id/selectedDayLabel"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:text="בחר יום"
-                android:textColor="#2C2C2A"
-                android:backgroundTint="#FFFFFF"
-                android:background="@drawable/field_bg"
+                android:layout_height="wrap_content"
+                android:text="לא נבחר יום"
+                android:textSize="13sp"
+                android:textColor="#712B13"
+                android:layout_marginBottom="6dp"/>
+
+            <LinearLayout
+                android:id="@+id/dayPickerContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
                 android:layout_marginBottom="14dp"/>
 
             <TextView
