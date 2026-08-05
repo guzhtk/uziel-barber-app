@@ -80,12 +80,13 @@
                 android:textColor="#5F5E5A"
                 android:layout_marginBottom="4dp"/>
 
-            <EditText
+            <AutoCompleteTextView
                 android:id="@+id/fname"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:hint="לדוגמה: דני כהן"
                 android:inputType="textPersonName"
+                android:completionThreshold="1"
                 android:background="@drawable/field_bg"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
